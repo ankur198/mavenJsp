@@ -1,0 +1,36 @@
+header {
+  $color: rgb(158, 158, 158);
+  $hover_color: rgb(207, 207, 207);
+
+  background: rgb(29, 29, 29);
+
+  //   * {
+  //     font-size: 1.0rem;
+  //   }
+
+  a {
+    color: $color;
+    text-decoration: none;
+    &:hover {
+      color: $hover_color;
+    }
+  }
+  .material-icons {
+    transform: translateY(2px);
+    font-size: 0.99em;
+    font-weight: bold;
+    padding: 0 5px;
+  }
+
+  // Implementation
+
+  .left,
+  .right {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    & > * {
+      padding: 15px 10px;
+    }
+  }
+}

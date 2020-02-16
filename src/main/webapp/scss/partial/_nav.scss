@@ -1,0 +1,13 @@
+nav {
+  margin: 20px 0;
+
+  .left,
+  .right {
+    display: flex;
+    flex-wrap: wrap;
+    & > * {
+      padding: 10px;
+    }
+    @import "dropdown";
+  }
+}

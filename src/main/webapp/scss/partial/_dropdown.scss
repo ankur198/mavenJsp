@@ -1,0 +1,12 @@
+.dropdown {
+  cursor: pointer;
+  &-title {
+    &::after {
+      content: "arrow_drop_down";
+      font-family: "Material Icons";
+      transform: translateY(6px);
+      font-size: x-large;
+      display: inline-block;
+    }
+  }
+}

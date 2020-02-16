@@ -1,0 +1,108 @@
+.about {
+  padding: 40px 0;
+  background: #707070;
+  color: white;
+}
+
+.about h4 {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.about hr {
+  border-color: #adadad;
+}
+
+.about .faded {
+  color: #bebebe;
+}
+
+.about img {
+  width: 60px;
+}
+
+.about .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1.5fr 1fr 1fr 1fr;
+      grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+@media screen and (max-width: 700px) {
+  .about .container {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    row-gap: 50px;
+  }
+}
+
+.about form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.about form input {
+  background: white;
+  border: none;
+  min-height: 37px;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.about form button {
+  background: #14abe7;
+  padding: 0 10px;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.about form button .material-icons {
+  color: white;
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
+  font-size: 0.98em;
+}
+
+.about .blog a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 0;
+  color: white;
+  text-decoration: none;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.about .blog a img {
+  margin-right: 10px;
+}
+
+.about .contact address {
+  font-style: normal;
+}
+
+.about .grid {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  justify-items: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 10px;
+}
+/*# sourceMappingURL=aboutFooter.css.map */

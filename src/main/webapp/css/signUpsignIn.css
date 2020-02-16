@@ -1,0 +1,107 @@
+.content .ribbon {
+  background-image: url(../assets/img/texture-bw.png);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.content .ribbon * {
+  font-weight: 100;
+  color: #1f1f1f;
+}
+
+.content .ribbon * a {
+  text-decoration: none;
+  color: #1e75d8;
+}
+
+.content .body {
+  margin: 40px 0;
+  font-size: 0.9em;
+}
+
+.content .body .container {
+  max-width: 1100px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-column-gap: 50px;
+          column-gap: 50px;
+}
+
+@media screen and (max-width: 700px) {
+  .content .body .container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    row-gap: 50px;
+  }
+}
+
+.content .body h1,
+.content .body h2 {
+  font-weight: 100;
+}
+
+.content .body .faded {
+  color: grey;
+}
+
+.content .body form label {
+  font-weight: bold;
+  display: block;
+  margin: 8px 0;
+}
+
+.content .body form input {
+  margin: 3px 0;
+  margin-bottom: 15px;
+  padding: 2px;
+  border-radius: 5px;
+  border: 1px #b9b9b9 solid;
+  min-height: 30px;
+  width: 100%;
+}
+
+.content .body form .center {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  row-gap: 10px;
+}
+
+.content .body form .center label {
+  font-weight: unset;
+  display: unset;
+}
+
+.content .body form .center input {
+  min-height: unset;
+  width: unset;
+}
+
+.content .body form .center .material-icons {
+  padding: 0 5px;
+}
+
+.content .body form .center button {
+  background: white;
+  border: 1px grey solid;
+  border-radius: 5px;
+  padding: 5px;
+  padding-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=signUpsignIn.css.map */
